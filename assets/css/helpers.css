@@ -150,3 +150,16 @@
 .section-padding {
     padding: 20px 20px 40px;
 }
+
+
+@media (width <=768px) {
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column,
+    .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.callback-form {
+    width: 100%;
+    padding: 20px 0;
+
+    & label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    & .form-control {
+        margin-bottom: 15px;
+    }
+
+    & input {
+        width: 100%;
+        padding: 4px;
+        height: 40px;
+        border: 1px solid #f5f5f5;
+
+        &:focus {
+            outline-color: var(--primary-color);
+        }
+    }
+
+    & .btn {
+        padding: 12px 0;
+        margin-top: 20px;
+    }
+}

@@ -33,4 +33,16 @@
         border-bottom: 2px solid var(--primary-color);
         transition: border-bottom 0.5s ease-in-out;
     }
+
+    @media (width <=768px) {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+
+        & a {
+            padding: 10px;
+            margin: 0 3px;
+        }
+
+    }
 }

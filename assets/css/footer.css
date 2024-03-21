@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+
+    & a {
+        color: var(--color-0);
+        transition: color 0.3s ease-in;
+
+        &:hover {
+            color: var(--primary-color);
+            transition: color 0.3s ease-out;
+        }
+    }
+
+    & .social>* {
+        margin-right: 30px;
+    }
+}
