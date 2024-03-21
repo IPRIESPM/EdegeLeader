@@ -1,0 +1,16 @@
+& .icons {
+    padding: 30px;
+
+    & h3 {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    & i {
+        background-color: var(--primary-color);
+        color: var(--color-0);
+        padding: 1rem;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+}
