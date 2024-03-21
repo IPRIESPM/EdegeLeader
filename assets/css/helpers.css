@@ -66,8 +66,32 @@
     }
 }
 
+.flex-grid {
+    & .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    & .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+}
+
 .flex-columns {
     display: flex;
+
+    & .row {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    &.flex-reverse .row {
+        flex-direction: row-reverse;
+    }
 
     & img {
         width: 100%;
@@ -86,12 +110,6 @@
 
     & .p {
         margin: 20px 0;
-    }
-
-    & .row {
-        display: flex;
-        flex-flow: row wrap;
-        width: 100%;
     }
 
     & .column {
@@ -131,20 +149,4 @@
 
 .section-padding {
     padding: 20px 20px 40px;
-}
-
-
-
-.flex-grid {
-    & .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-
-    & .column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-    }
 }

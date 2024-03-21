@@ -1,0 +1,6 @@
+.team img {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
