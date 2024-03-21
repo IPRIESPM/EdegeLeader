@@ -11,8 +11,12 @@
     background-color: var(--color-900);
     color: var(--color-0);
     opacity: 0.8;
-    transition: border-bottom 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     z-index: 2;
+
+    &.top {
+        background: transparent;
+    }
 
     & a {
         margin: 0 5px;
